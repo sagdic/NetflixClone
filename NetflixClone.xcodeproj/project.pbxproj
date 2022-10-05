@@ -17,6 +17,7 @@
 		AA53DAE928E9986A003F716E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA53DAE828E9986A003F716E /* SDWebImageMapKit */; };
 		AA6313D028E9E27E0078AB35 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6313CF28E9E27E0078AB35 /* TitleTableViewCell.swift */; };
 		AA6313D228EAE2FB0078AB35 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6313D128EAE2FB0078AB35 /* TitleViewModel.swift */; };
+		AA6313D428EB20030078AB35 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6313D328EB20030078AB35 /* SearchResultViewController.swift */; };
 		AA8A7C1E28DDBBF0002100E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A7C1D28DDBBF0002100E4 /* AppDelegate.swift */; };
 		AA8A7C2028DDBBF1002100E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A7C1F28DDBBF1002100E4 /* SceneDelegate.swift */; };
 		AA8A7C2228DDBBF1002100E4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A7C2128DDBBF1002100E4 /* MainTabBarViewController.swift */; };
@@ -37,6 +38,7 @@
 		AA53DAE328E86B2D003F716E /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA6313CF28E9E27E0078AB35 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		AA6313D128EAE2FB0078AB35 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		AA6313D328EB20030078AB35 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		AA8A7C1A28DDBBF0002100E4 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A7C1D28DDBBF0002100E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA8A7C1F28DDBBF1002100E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,25 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		AA6313D528EB20280078AB35 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A7C3228DDC051002100E4 /* HomeViewController.swift */,
+				AA8A7C3428DDC076002100E4 /* UpcomingViewController.swift */,
+				AA8A7C3628DDC08C002100E4 /* SearchViewController.swift */,
+				AA8A7C3828DDC0A8002100E4 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA6313D628EB20410078AB35 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AA6313D328EB20030078AB35 /* SearchResultViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		AA8A7C1128DDBBF0002100E4 = {
 			isa = PBXGroup;
 			children = (
@@ -144,10 +165,8 @@
 		AA8A7C3128DDC036002100E4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A7C3228DDC051002100E4 /* HomeViewController.swift */,
-				AA8A7C3428DDC076002100E4 /* UpcomingViewController.swift */,
-				AA8A7C3628DDC08C002100E4 /* SearchViewController.swift */,
-				AA8A7C3828DDC0A8002100E4 /* DownloadsViewController.swift */,
+				AA6313D628EB20410078AB35 /* General */,
+				AA6313D528EB20280078AB35 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +262,7 @@
 				AA8A7C3528DDC076002100E4 /* UpcomingViewController.swift in Sources */,
 				AA4B170C28E199D400E948E2 /* Title.swift in Sources */,
 				AA8A7C3328DDC051002100E4 /* HomeViewController.swift in Sources */,
+				AA6313D428EB20030078AB35 /* SearchResultViewController.swift in Sources */,
 				AA6313D228EAE2FB0078AB35 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

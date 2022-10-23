@@ -1,5 +1,4 @@
 # NetflixClone
-****In Progress****
 
 UIKit MVVM Design Pattern
 
